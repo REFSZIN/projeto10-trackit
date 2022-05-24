@@ -13,8 +13,8 @@ export default function App (){
     const [user, setUser] = useState();
     const [dailyProgress, setDailyProgress] = useState(0);
     const weekDays = new Map([
-        [1, "Segunda"], [2, "Terça"], [3, "Quarta"], [4, "Quinta"],
-        [5, "Sexta"], [6, "Sábado"], [0, "Domingo"]
+        [1,"Segunda"], [2,"Terça"], [3,"Quarta"], [4,"Quinta"],
+        [5,"Sexta"], [6,"Sábado"], [0,"Domingo"]
     ]);
     return (
     <DailyProgress.Provider value={{dailyProgress, setDailyProgress}}>
