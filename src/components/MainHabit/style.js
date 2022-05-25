@@ -24,6 +24,7 @@ export const H2  = styled.h2`
     font-size: 22.976px;
     line-height: 29px;
     color: #126BA5;
+    animation: fadeInDown 1s ;
 `;
 export const BoxIcon  = styled.div`
     width: 40px;
@@ -34,6 +35,7 @@ export const BoxIcon  = styled.div`
     align-content: center;
     justify-content: center;
     align-items: center;
+    animation: fadeInDown 1s ;
 `;
 export const CreateHabit = styled.article`
     width: 90%;
@@ -45,9 +47,10 @@ export const CreateHabit = styled.article`
     align-content: flex-start;
     align-items: flex-start;
     justify-content: center;
-    height: 180px;
+    height: 160px;
     background: #FFFFFF;
     border-radius: 5px;
+    animation: fadeInRight 1s ;
 `;
 export const InputCreateHabit = styled.input`
     width: 90%;
@@ -80,6 +83,11 @@ export const InputCreateHabit = styled.input`
     line-height: 25px;
     color: #DBDBDB;
     }
+    @media only screen and (min-width: 770px) {
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    }
 `;
 export const ArticleDays = styled.article`
 display: flex;
@@ -90,6 +98,11 @@ display: flex;
     align-items: center;
     margin-top: 10px;
     margin-left: 5%;
+    @media only screen and (min-width: 770px) {
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    }
 `
 export const DivDays = styled.div`
     display: flex;
@@ -104,6 +117,10 @@ export const DivDays = styled.div`
     justify-content: center;
     align-items: center;
     margin-right: 4px;
+    &:hover{
+	cursor: pointer;
+    filter: brightness(0.9);
+    }
 `;
 export const DaysCreateHabit = styled.span`
     width: 12px;
@@ -124,8 +141,14 @@ export const BoxBtn  = styled.div`
     align-items: center;
     width: 95%;
     height: 40px;
+    margin-bottom: 10px;
+    @media only screen and (min-width: 770px) {
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    }
 `;
-export const BtnCreateExit  = styled.button`
+export const BtnCreateExit  = styled.span`
     width: 80px;
     height: 20px;
     font-family: 'Lexend Deca';
@@ -139,6 +162,10 @@ export const BtnCreateExit  = styled.button`
     color: #52B6FF;
     margin-right: 10px;
     margin-top: 30px;
+    &:hover{
+	cursor: pointer;
+    filter: brightness(1.1);
+    }
 `;
 export const BtnCreate  = styled.button`
     width: 84px;
@@ -170,6 +197,7 @@ export const  BoxHabit = styled.article`
     align-content: center;
     justify-content: center;
     align-items: flex-start;
+    animation: fadeInLeft 1s ;
 `;
 export const BoxTitleHabit  = styled.div`
     display: flex;
@@ -181,6 +209,11 @@ export const BoxTitleHabit  = styled.div`
     justify-content: space-between;
     align-items: center;
     margin-left: 5%;
+    @media only screen and (min-width: 770px) {
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    }
 `;
 export const TitleHabit  = styled.h2`
     width: 208px;
@@ -221,9 +254,16 @@ export const  BoxAvisoHabit = styled.section`
     font-weight: 400;
     font-size: 17.976px;
     line-height: 22px;
-    margin-left:5%;
+    margin-left: 5%;
+    margin-right: 5%;
     color: #666666;
-    margin-top: 10px;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 `;
 export const Aviso = styled.span`
     position: absolute;
@@ -235,4 +275,5 @@ export const Aviso = styled.span`
     line-height: 22px;
     color: #666666;
     margin-right: 4%;
+    margin-left: 4%;
 `;

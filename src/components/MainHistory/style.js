@@ -48,5 +48,10 @@ export const BoxCalendar = styled.section`
     align-content: center;
     justify-content: space-between;
     align-items: center;
-
+    animation: backInUp 1s;
+    @media only screen and (max-width: 770px) {
+    width: 99%;
+    margin-left: 0.1%;
+    margin-right: 0.1%;
+    }
 `

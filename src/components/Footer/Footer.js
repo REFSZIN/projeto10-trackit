@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import {CircularProgressbar,buildStyles} from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 export default function Footer(){
-    const percentage = 30;
+    const percentage = 92;
     return(
             <Foter>
                 <Link to="/habitos"><LinkFoter>Hábitos</LinkFoter></Link>

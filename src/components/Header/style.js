@@ -14,6 +14,7 @@ export const Head = styled.header`
     align-content: center;
     justify-content: space-between;
     align-items: stretch;
+    padding-left: 5%;
 `;
 
 export const LogoHeader = styled.img`
@@ -21,7 +22,6 @@ export const LogoHeader = styled.img`
     font-weight: 400;
     font-size: 38.982px;
     line-height: 49px;
-    margin-left: 20px;
     color: #FFFFFF;
     padding-top: 10px;
 `;
@@ -33,5 +33,5 @@ export const UserImg = styled.img`
     top: 9px;
     background: url(image.png);
     border-radius: 98.5px;
-    margin-right: 20px;
+    margin-right: 5%;
 `;

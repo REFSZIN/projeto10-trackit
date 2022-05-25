@@ -19,11 +19,11 @@ export const TopToda  = styled.section`
     width: 90%;
     margin-right: 5%;
     margin-bottom: 20px;
+    animation: slideInLeft 1s;
 `;
 export const Day  = styled.h3`
     width: 172px;
     height: 29px;
-
     font-family: 'Lexend Deca';
     font-style: normal;
     font-weight: 400;
@@ -55,9 +55,9 @@ export const Habit  = styled.article`
     align-content: space-between;
     justify-content: center;
     align-items: flex-start;
+    animation: pulse 1s;
 `;
 export const TitleHabit  = styled.h4`
-    width: 180px;
     height: 25px;
     font-family: 'Lexend Deca';
     font-style: normal;
@@ -67,6 +67,9 @@ export const TitleHabit  = styled.h4`
     color: #666666;
     margin-left: 20px;
     margin-bottom: 5px;
+    @media only screen and (max-width: 370px) {
+    margin-left: 5px;
+    }
 `;
 export const ScoreHabit  = styled.span`
     width: 148px;
@@ -78,6 +81,9 @@ export const ScoreHabit  = styled.span`
     line-height: 16px;
     color: #666666;
     margin-left: 20px;
+    @media only screen and (max-width: 370px) {
+    margin-right: 5px;
+    }
 `;
 export const BoxCheck = styled.div`
     display: flex;
@@ -90,6 +96,9 @@ export const BoxCheck = styled.div`
     justify-content: center;
     align-items: center;
     margin-right: 20px;
+    @media only screen and (max-width: 370px) {
+    margin-left: 5px;
+    }
 `;
 export const DescDayOn  = styled.span`
     width: 238px;
@@ -100,5 +109,4 @@ export const DescDayOn  = styled.span`
     font-size: 17.976px;
     line-height: 22px;
     color: #8FC549;
-    
 `;

@@ -12,7 +12,15 @@ export default createGlobalStyle`
     font-family: 'Righteous', cursive;
 	font-family: 'Roboto', sans-serif; 
     font-family: 'Recursive', sans-serif;
+	mobileS: '320px',
+	mobileM: '375px',
+	mobileL: '425px',
+	tablet: '768px',
+	laptop: '1024px',
+	laptopL: '1440px',
+	desktop: '2560px'
 */
+
 html, body, main{
 	height: 100vh;
 }
@@ -24,11 +32,29 @@ footer{
 }
 ion-icon[name="add-outline"]{
 	color: #ffffff;
+	width: 40px;
+	height: 30px;
 }
 ion-icon[name="checkmark-outline"]{
 	color: #ffffff;
 	width: 60px;
 	height: 48px;
+}
+ion-icon[name="trash-outline"]{
+	width: 20px;
+	height: 28px;
+}
+ion-icon[name="checkmark-outline"]:hover{
+	cursor: pointer;
+    filter: brightness(1.5);
+}
+ion-icon[name="add-outline"]:hover{
+	cursor: pointer;
+    filter: brightness(1.5);
+}
+ion-icon[name="trash-outline"]:hover{
+	cursor: pointer;
+    filter: brightness(1.5);
 }
 *, *:before, *::after{
     box-sizing: border-box;
@@ -87,5 +113,22 @@ button:hover{
 	cursor: pointer;
     filter: brightness(1.1);
     box-shadow: 1px 1px 2px 1px #126BA5;
+}
+.react-calendar{
+    font-family: 'Righteous', cursive;
+	width: 1400px;
+	border: #126BA5;
+	-webkit-border-radius: 53px;
+	-moz-border-radius: 53px;
+	border-radius: 12px;
+}
+.react-calendar button{
+	height: 80px;
+    font-family: 'Righteous', cursive;
+	width: 1400px;
+	border: #126BA5;
+	-webkit-border-radius: 53px;
+	-moz-border-radius: 53px;
+	border-radius: 12px;
 }
 `

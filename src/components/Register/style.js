@@ -4,6 +4,14 @@ export const LogoRegis = styled.img`
     width: 180px;
     height: 178.38px;
 `;
+export const Anime = styled.nav`
+    animation: bounceInDown 1s;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+`;
 export const FormRegis = styled.form`
     width: 80%;
     margin-left: 10%;
@@ -30,6 +38,10 @@ export const InputRegis = styled.input`
     margin-bottom: 5px;
     margin-top: 5px;
     padding-left: 10px;
+    &:hover{
+    filter: brightness(1.08);
+    box-shadow: 1px 1px 1px 1px #126BA5;
+    }
 `;
 export const BtnRegis = styled.button`
     width: 303px;
@@ -58,4 +70,7 @@ export const SpanLink = styled.span`
     text-decoration-line: underline;
     color: #323232;
     margin-top: 30px;
+    &:hover{
+    filter: brightness(1.2);
+    }
 `;

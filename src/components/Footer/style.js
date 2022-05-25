@@ -23,6 +23,10 @@ export const LinkFoter = styled.h4`
     line-height: 22px;
     text-align: center;
     color: #52B6FF;
+    &:hover{
+	cursor: pointer;
+    filter: brightness(1.1);
+    }
 `
 export const Mid = styled.div`
     width: 91px;
@@ -30,4 +34,7 @@ export const Mid = styled.div`
     border-radius: 99%;
     background: #52B6FF;
     margin-bottom: 40px;
+    border: 6px solid  #E5E5E5;
+    box-shadow: 0px -10px 0 0 #E5E5E5;
+    transition: 0.5s;
 `

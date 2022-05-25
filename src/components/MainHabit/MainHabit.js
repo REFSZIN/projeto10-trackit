@@ -11,7 +11,7 @@ export default function MainHabit(){
                 </BoxIcon>
             </TopMainHabit>
             <CreateHabit>
-                <InputCreateHabit placeholder="nome do hábito"></InputCreateHabit>
+                <InputCreateHabit placeholder="Nome do hábito"></InputCreateHabit>
                 <ArticleDays>
                     <DivDays>
                         <DaysCreateHabit>D</DaysCreateHabit>
