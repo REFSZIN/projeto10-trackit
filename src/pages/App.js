@@ -1,13 +1,13 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import ResetCSS from './assets/css/global.js';
-import DailyProgress from "./contexts/DailyProgress";
-import UserContext from "./contexts/UserContext";
+import ResetCSS from '../assets/css/global.js';
+import DailyProgress from "../contexts/DailyProgress";
+import UserContext from "../contexts/UserContext";
 import { useState } from "react";
-import SignScreen from "./pages/SignScreen.js";
-import RegisterScreen from "./pages/RegisterScreen.js";
-import HabitScreen from "./pages/HabitScreen.js";
-import TodayScreen from "./pages/TodayScreen.js";
-import HistoryScreen from "./pages/HistoryScreen.js";
+import SignScreen from "./SignScreen.js";
+import RegisterScreen from "./RegisterScreen.js";
+import HabitScreen from "./HabitScreen.js";
+import TodayScreen from "./TodayScreen.js";
+import HistoryScreen from "./HistoryScreen.js";
 
 export default function App (){
     const [user, setUser] = useState();
