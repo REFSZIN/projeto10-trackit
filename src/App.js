@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ResetCSS from './assets/css/global.js';
-import DailyProgress from "./Contexts/DailyProgress";
-import UserContext from "./Contexts/UserContext";
+import DailyProgress from "./contexts/DailyProgress";
+import UserContext from "./contexts/UserContext";
 import { useState } from "react";
 import SignScreen from "./Pages/SignScreen.js";
 import RegisterScreen from "./Pages/RegisterScreen.js";
