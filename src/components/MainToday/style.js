@@ -5,7 +5,8 @@ export const MainToda  = styled.main`
     height: 100%;
     background-color: #E5E5E5;
     padding-top: 70px;
-    padding-bottom: 92px;
+    padding-bottom: 70px;
+    margin-bottom: 30px;
 `;
 
 export const TopToda  = styled.section`

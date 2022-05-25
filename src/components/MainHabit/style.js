@@ -5,7 +5,7 @@ export const MainHab = styled.main`
     height: 100%;
     background-color: #E5E5E5;
     padding-top: 70px;
-    padding-bottom: 92px;
+    padding-bottom: 70px;
 `;
 export const TopMainHabit  = styled.section`
     display: flex;
