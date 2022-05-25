@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
-export const MainHab  = styled.main`
+export const MainHab = styled.main`
     width: 100%;
-    background-color: #E5E5E5;;
+    height: 100%;
+    background-color: #E5E5E5;
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 92px;
 `;
 export const TopMainHabit  = styled.section`
     display: flex;

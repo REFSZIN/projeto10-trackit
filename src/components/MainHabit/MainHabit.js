@@ -69,6 +69,151 @@ export default function MainHabit(){
                     </DivDays>
                 </ArticleDays>
             </BoxHabit>
+            <BoxHabit>
+                <BoxTitleHabit>
+                    <TitleHabit>Ler 1 capítulo de livro</TitleHabit>
+                    <ion-icon name="trash-outline"></ion-icon>
+                </BoxTitleHabit>
+                <ArticleDays>
+                    <DivDays>
+                        <DaysHabit>D</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>S</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>T</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>Q</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>Q</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>S</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>S</DaysHabit>
+                    </DivDays>
+                </ArticleDays>
+            </BoxHabit>
+            <BoxHabit>
+                <BoxTitleHabit>
+                    <TitleHabit>Ler 1 capítulo de livro</TitleHabit>
+                    <ion-icon name="trash-outline"></ion-icon>
+                </BoxTitleHabit>
+                <ArticleDays>
+                    <DivDays>
+                        <DaysHabit>D</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>S</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>T</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>Q</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>Q</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>S</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>S</DaysHabit>
+                    </DivDays>
+                </ArticleDays>
+            </BoxHabit>
+            <BoxHabit>
+                <BoxTitleHabit>
+                    <TitleHabit>Ler 1 capítulo de livro</TitleHabit>
+                    <ion-icon name="trash-outline"></ion-icon>
+                </BoxTitleHabit>
+                <ArticleDays>
+                    <DivDays>
+                        <DaysHabit>D</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>S</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>T</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>Q</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>Q</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>S</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>S</DaysHabit>
+                    </DivDays>
+                </ArticleDays>
+            </BoxHabit>
+            <BoxHabit>
+                <BoxTitleHabit>
+                    <TitleHabit>Ler 1 capítulo de livro</TitleHabit>
+                    <ion-icon name="trash-outline"></ion-icon>
+                </BoxTitleHabit>
+                <ArticleDays>
+                    <DivDays>
+                        <DaysHabit>D</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>S</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>T</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>Q</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>Q</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>S</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>S</DaysHabit>
+                    </DivDays>
+                </ArticleDays>
+            </BoxHabit>
+            <BoxHabit>
+                <BoxTitleHabit>
+                    <TitleHabit>Ler 1 capítulo de livro</TitleHabit>
+                    <ion-icon name="trash-outline"></ion-icon>
+                </BoxTitleHabit>
+                <ArticleDays>
+                    <DivDays>
+                        <DaysHabit>D</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>S</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>T</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>Q</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>Q</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>S</DaysHabit>
+                    </DivDays>
+                    <DivDays>
+                        <DaysHabit>S</DaysHabit>
+                    </DivDays>
+                </ArticleDays>
+            </BoxHabit>
             <BoxAvisoHabit>
                 <Aviso>Você não tem nenhum hábito cadastrado ainda.<br/> Adicione um hábito para começar a trackear!</Aviso>
             </BoxAvisoHabit>

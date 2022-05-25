@@ -2,11 +2,12 @@ import styled from 'styled-components';
 
 export const MainToda  = styled.main`
     width: 100%;
-    height: 100vh;
-    background-color: #E5E5E5;;
+    height: 100%;
+    background-color: #E5E5E5;
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 92px;
 `;
+
 export const TopToda  = styled.section`
     display: flex;
     flex-direction: column;

@@ -36,6 +36,58 @@ export default function MainToday(){
                 <BoxCheck>
                     <ion-icon name="checkmark-outline"></ion-icon>
                 </BoxCheck>
+            </Habit>            <Habit>
+                <TitleHabit>Ler 1 capítulo de livro</TitleHabit>
+                <ScoreHabit>Sequência atual: 4 dias<br/> Seu recorde: 5 dias</ScoreHabit>
+                <BoxCheck>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </BoxCheck>
+            </Habit>
+            <Habit>
+                <TitleHabit>Ler 1 capítulo de livro</TitleHabit>
+                <ScoreHabit>Sequência atual: 4 dias<br/> Seu recorde: 5 dias</ScoreHabit>
+                <BoxCheck>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </BoxCheck>
+            </Habit>            <Habit>
+                <TitleHabit>Ler 1 capítulo de livro</TitleHabit>
+                <ScoreHabit>Sequência atual: 4 dias<br/> Seu recorde: 5 dias</ScoreHabit>
+                <BoxCheck>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </BoxCheck>
+            </Habit>
+            <Habit>
+                <TitleHabit>Ler 1 capítulo de livro</TitleHabit>
+                <ScoreHabit>Sequência atual: 4 dias<br/> Seu recorde: 5 dias</ScoreHabit>
+                <BoxCheck>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </BoxCheck>
+            </Habit>            <Habit>
+                <TitleHabit>Ler 1 capítulo de livro</TitleHabit>
+                <ScoreHabit>Sequência atual: 4 dias<br/> Seu recorde: 5 dias</ScoreHabit>
+                <BoxCheck>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </BoxCheck>
+            </Habit>
+            <Habit>
+                <TitleHabit>Ler 1 capítulo de livro</TitleHabit>
+                <ScoreHabit>Sequência atual: 4 dias<br/> Seu recorde: 5 dias</ScoreHabit>
+                <BoxCheck>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </BoxCheck>
+            </Habit>            <Habit>
+                <TitleHabit>Ler 1 capítulo de livro</TitleHabit>
+                <ScoreHabit>Sequência atual: 4 dias<br/> Seu recorde: 5 dias</ScoreHabit>
+                <BoxCheck>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </BoxCheck>
+            </Habit>
+            <Habit>
+                <TitleHabit>Ler 1 capítulo de livro</TitleHabit>
+                <ScoreHabit>Sequência atual: 4 dias<br/> Seu recorde: 5 dias</ScoreHabit>
+                <BoxCheck>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </BoxCheck>
             </Habit>
         </MainToda>
     );

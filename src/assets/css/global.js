@@ -21,15 +21,6 @@ export default createGlobalStyle`
 	desktop: '2560px'
 */
 
-html, body, main{
-	height: 100vh;
-}
-header{
-	padding-bottom: 70px;
-}
-footer{
-	padding-top: 70px;
-}
 ion-icon[name="add-outline"]{
 	color: #ffffff;
 	width: 40px;
@@ -106,8 +97,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.root{
-    overflow-x: hidden
+#root{
+    overflow-x: hidden;
+}
+body{
+    height: 100vh;
+	width: 100vw;
 }
 button:hover{
 	cursor: pointer;
@@ -121,9 +116,10 @@ button:hover{
 	-webkit-border-radius: 53px;
 	-moz-border-radius: 53px;
 	border-radius: 12px;
+	margin-top: 20px;
 }
 .react-calendar button{
-	height: 80px;
+	height: 60px;
     font-family: 'Righteous', cursive;
 	width: 1400px;
 	border: #126BA5;

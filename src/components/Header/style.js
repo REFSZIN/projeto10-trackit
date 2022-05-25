@@ -15,6 +15,7 @@ export const Head = styled.header`
     justify-content: space-between;
     align-items: stretch;
     padding-left: 5%;
+    z-index: 1;
 `;
 
 export const LogoHeader = styled.img`
