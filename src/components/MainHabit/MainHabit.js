@@ -7,7 +7,7 @@ export default function MainHabit(){
             <div>
                 <h2>Meus hábitos</h2>
                 <div>
-                    <icon></icon>
+                <ion-icon name="trash-outline"></ion-icon>
                 </div>
             </div>
             <article>
@@ -41,7 +41,7 @@ export default function MainHabit(){
             <article>
                 <div>
                     <h3>Ler 1 capítulo de livro</h3>
-                    <icon></icon>
+                    <ion-icon name="trash-outline"></ion-icon>
                 </div>
                 <div>
                     <span>D</span>
