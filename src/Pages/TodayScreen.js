@@ -1,6 +1,14 @@
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
+import MainToda from "../components/MainToday/MainToday";
+
 export default function TodayScreen(){
     
     return(
-        <h1>Sou a tela TodayScreen </h1>
+        <>
+            <Header/>
+            <MainToda/>
+            <Footer/>
+        </>
     )
 }
