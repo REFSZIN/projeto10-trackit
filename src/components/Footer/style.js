@@ -24,16 +24,6 @@ export const LinkFoter = styled.h4`
     text-align: center;
     color: #52B6FF;
 `
-export const LinkFoterMid = styled.h5`
-    font-family: 'Lexend Deca';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17.976px;
-    line-height: 22px;
-    text-align: center;
-    color: #FFFFFF;
-    padding-top: 35px;
-`
 export const Mid = styled.div`
     width: 91px;
     height: 91px;

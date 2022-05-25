@@ -13,7 +13,23 @@ export default createGlobalStyle`
 	font-family: 'Roboto', sans-serif; 
     font-family: 'Recursive', sans-serif;
 */
-
+html, body, main{
+	height: 100vh;
+}
+header{
+	padding-bottom: 70px;
+}
+footer{
+	padding-top: 70px;
+}
+ion-icon[name="add-outline"]{
+	color: #ffffff;
+}
+ion-icon[name="checkmark-outline"]{
+	color: #ffffff;
+	width: 60px;
+	height: 48px;
+}
 *, *:before, *::after{
     box-sizing: border-box;
 	scroll-behavior: smooth;
