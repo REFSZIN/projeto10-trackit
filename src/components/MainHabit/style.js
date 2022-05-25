@@ -6,6 +6,7 @@ export const MainHab = styled.main`
     background-color: #E5E5E5;
     padding-top: 70px;
     padding-bottom: 70px;
+    margin-bottom: 20px;
 `;
 export const TopMainHabit  = styled.section`
     display: flex;
