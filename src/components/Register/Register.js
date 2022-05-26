@@ -18,7 +18,6 @@ export default function Sing(){
         create.preventDefault();
         setLoader(0);
         const URL =`https://mock-api.bootcamp.respondeai.com.br/api/v2/trackit/auth/sign-up`;
-        
         const promise = axios.post(URL,
         {
             email,name,image,password
@@ -30,7 +29,6 @@ export default function Sing(){
         promise.catch(error => {
             setLoader(0);
             alert(error.response.user.message);
-            
         });
     };
     return(

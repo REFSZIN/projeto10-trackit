@@ -18,7 +18,6 @@ export default function Sing(){
     function login(event){
         event.preventDefault();
         setLoad(1);
-
         const promise = axios.post(URL,
         {
             email, password
