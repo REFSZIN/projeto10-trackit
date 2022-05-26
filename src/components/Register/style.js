@@ -34,7 +34,7 @@ export const InputRegis = styled.input`
     font-weight: 400;
     font-size: 19.976px;
     line-height: 25px;
-    color: rgba(1010,10,10);
+    color: rgba(175, 175, 175, 1);
     margin-bottom: 5px;
     margin-top: 5px;
     padding-left: 10px;

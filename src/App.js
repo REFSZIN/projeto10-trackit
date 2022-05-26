@@ -8,17 +8,22 @@ import RegisterScreen from "./Pages/RegisterScreen.js";
 import HabitScreen from "./Pages/HabitScreen.js";
 import TodayScreen from "./Pages/TodayScreen.js";
 import HistoryScreen from "./Pages/HistoryScreen.js";
+import React from 'react'
 
 export default function App (){
+
+    const [token, setToken] = useState(0);
     const [user, setUser] = useState();
     const [dailyProgress, setDailyProgress] = useState(0);
+    const userContext = {token, setToken,user,setUser};
     const weekDays = new Map([
         [1,"Segunda"], [2,"Terça"], [3,"Quarta"], [4,"Quinta"],
         [5,"Sexta"], [6,"Sábado"], [0,"Domingo"]
     ]);
+
     return (
     <DailyProgress.Provider value={{dailyProgress, setDailyProgress}}>
-        <UserContext.Provider value={{user, setUser}}>
+        <UserContext.Provider value={userContext}>
             <BrowserRouter>
                 <ResetCSS/>
                     <Routes>

@@ -100,6 +100,12 @@ table {
 #root{
     overflow-x: hidden;
 }
+button div{
+	display:flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
 body{
     height: 100vh;
 	width: 100vw;
