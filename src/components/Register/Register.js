@@ -33,7 +33,7 @@ export default function Sing(){
     };
     return(
         <Anime>
-            <LogoRegis src={logo} alt="Track-It"/>
+            <Link to="/" ><LogoRegis src={logo} alt="Track-It"/></Link>
             <FormRegis onSubmit={createUser}>
                 <InputRegis disabled={!loader} type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="email"required ></InputRegis>
                 <InputRegis disabled={!loader} type="text" value={password} onChange={e => setPassword(e.target.value)} placeholder="senha" required></InputRegis>

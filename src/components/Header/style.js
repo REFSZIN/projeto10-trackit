@@ -30,9 +30,21 @@ export const LogoHeader = styled.img`
 export const UserImg = styled.img`
     width: 51px;
     height: 51px;
-    left: 306px;
-    top: 9px;
     background: url(image.png);
     border-radius: 98.5px;
+    margin-left: 10px;
+`;
+export const UserName = styled.figcaption`
+    margin-top: 15px;
+    width: fit-content;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.976px;
+    line-height: 25px;
+    color: #FFFFFF;
+`;
+export const BoxUser = styled.figure`
+    display: flex;
     margin-right: 5%;
 `;

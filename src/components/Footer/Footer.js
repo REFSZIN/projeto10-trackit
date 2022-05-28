@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import {CircularProgressbar,buildStyles} from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 export default function Footer(){
+    
     const percentage = 92;
     return(
             <Foter>
@@ -17,8 +18,8 @@ export default function Footer(){
                         backgroundPadding={6}
                         styles={buildStyles({
                         backgroundColor: "#3e98c7",
-                        textColor: "#fff",
-                        pathColor: "#fff",
+                        textColor: "#ffffff",
+                        pathColor: "#ffffff",
                         trailColor: "transparent"
                         })}
                     />

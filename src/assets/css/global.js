@@ -109,6 +109,7 @@ button div{
 body{
     height: 100vh;
 	width: 100vw;
+	background-color: #E5E5E5;
 }
 button:hover{
 	cursor: pointer;

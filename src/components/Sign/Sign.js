@@ -33,7 +33,6 @@ export default function Sing(){
             alert(error.response.data.message);
         });
     };
-
     return(
         <Anime>
             <LogoSign src={logo} alt="Track-It"/>

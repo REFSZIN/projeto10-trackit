@@ -15,7 +15,8 @@ export default function App (){
     const [token, setToken] = useState(0);
     const [user, setUser] = useState();
     const [dailyProgress, setDailyProgress] = useState(0);
-    const userContext = {token, setToken,user,setUser};
+    const [habitData,setHabitData] = useState('');
+    const userContext = { user, setUser, token, setToken, habitData, setHabitData };
     const weekDays = new Map([
         [1,"Segunda"], [2,"Terça"], [3,"Quarta"], [4,"Quinta"],
         [5,"Sexta"], [6,"Sábado"], [0,"Domingo"]
